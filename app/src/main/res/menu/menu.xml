@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- collapseActionView: dấu mũi tên để thu gọn ActionView  -->
+    <item android:id="@+id/itSearchView"
+        android:title="Search View"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item android:id="@+id/itSetting"
+        android:title="Setting" />
+
+    <item android:id="@+id/itThoat"
+        android:title="Thoát" />
+
+</menu>
